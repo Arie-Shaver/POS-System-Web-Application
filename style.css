@@ -1,0 +1,24 @@
+:root {
+        /* light mode */
+        --main-font-color: #000;
+        --sub-font-color: white;
+        --bg-color: white;
+        --title-color: #EA0B43;
+        --hover-color: #EA0B43;
+        --selected-color: #EA0B43;
+        --navbar-color: black;
+      }
+      
+      [data-theme="dark"] {
+        --main-font-color: #8b8b8b;
+        --sub-font-color: white;
+        --bg-color: black;
+        --title-color: #FF9291;
+        --hover-color: #FF9291;
+        --selected-color: #FF9291;
+        --navbar-color: #282828;
+      }
+      
+      body {
+        background-color: var(--bg-color);
+      }
